@@ -2,7 +2,7 @@
 
 ---
 ### Overview:
-The ARCANE-Game Expansion introduces new gameplay features and characters to the original game. Key updates include a new creature type, Demon, and additional adventurer types like Knight, Coward, and Glutton. The output has been improved with the use of screenshots instead of cluttered text output, enhancing the user experience and making the game interface clearer.
+ARCANE-Game is a dice-based game, and this expansion introduces new gameplay features and characters to the original game. Key updates include a new creature type, Demon, and additional adventurer types like Knight, Coward, and Glutton.
 
 <img width="639" alt="a1" src="https://github.com/user-attachments/assets/b71e01c8-49fc-4162-a705-3d14a6052031">
 
