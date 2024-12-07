@@ -26,7 +26,7 @@ ARCANE-Game is a dice-based game, and this expansion introduces new gameplay fea
 
 ---
 
-### Test Coverage:
+### Test Coverage: 86%
 <img width="282" alt="TestCoverageSS" src="https://github.com/user-attachments/assets/5891b282-0d47-4a1c-a840-416c1bcf33cc">
 
 ---
