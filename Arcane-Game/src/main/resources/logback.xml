@@ -1,0 +1,45 @@
+<configuration>
+    # Full blown logging appender
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    # Simple logging -- equivalent to System.out.println()
+    <appender name="Same_As_Println" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%yellow(%msg%n)</pattern>
+        </encoder>
+    </appender>
+
+    # Game Status Appender --- just for logging the state of the game
+    <appender name="Game_Status" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%cyan(%msg)</pattern>
+        </encoder>
+    </appender>
+
+    # File appender
+    <appender name="File_Output" class="ch.qos.logback.core.FileAppender">
+        <file>arcane.log</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%msg</pattern>
+        </encoder>
+    </appender>
+
+    <root level="error">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+    <logger name="csci.ooad.arcane" level="info" additivity="false">
+        <appender-ref ref="Same_As_Println" />
+    </logger>
+
+    <logger name="csci.ooad.arcane.Arcane" level="info" additivity="false">
+        <appender-ref ref="Game_Status" />
+        <appender-ref ref="File_Output" />
+    </logger>
+
+</configuration>
