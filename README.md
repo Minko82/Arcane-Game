@@ -1,38 +1,66 @@
-# Arcane-Game
+# 🎲 **Arcane-Game Expansion**
 
----
-### Overview:
-ARCANE-Game is a dice-based game, and this expansion introduces new gameplay features and characters to the original game. Key updates include a new creature type, Demon, and additional adventurer types like Knight, Coward, and Glutton.
+## 📝 **Overview**
 
-<img width="639" alt="a1" src="https://github.com/user-attachments/assets/b71e01c8-49fc-4162-a705-3d14a6052031">
+Arcane-Game is an engaging dice-based adventure game. This expansion introduces exciting new features, including enhanced gameplay mechanics, new characters, and expanded creature types. With these updates, players can explore dynamic mazes, interact with unique adventurers, and face challenges like never before.
 
+<p align="center">
+  <img width="500" alt="Gameplay Screenshot" src="https://github.com/user-attachments/assets/b71e01c8-49fc-4162-a705-3d14a6052031">
+</p>
 
---- 
-
-### Features:
-- New Creature Type: Demon – A new enemy or ally type, adding depth to gameplay.
-- Expanded Adventurer Types:
-  - **Knight**: A strong, armored character for melee combat.
-  - **Coward**: A character that avoids danger and focuses on stealth.
-  - **Glutton**: A character who consumes resources rapidly to gain power.
--Improved Output: Replaced crowded output sections with clear, easy-to-understand screenshots.
-- **Builder pattern** that creates different grid-sized mazes and enables users to place pre-made objects into specific rooms
-- **Factory pattern** that creates 3 factories: AdventureFactory, CreatureFactory, and FoodFactory
+<br>
 
 ---
 
-### UML Diagram of Classes:
-<img width="789" alt="UML" src="https://github.com/user-attachments/assets/2d81d643-8ab3-4a08-9a13-0ea8648506d6">
+## 🌟 **Features**
+
+### **1. New Creature Type: Demon**
+- A versatile new enemy or ally type that adds strategic depth to gameplay.
+
+### **2. Expanded Adventurer Types**
+- **Knight**: A heavily armored melee fighter.
+- **Coward**: Focuses on stealth and avoiding conflict.
+- **Glutton**: Consumes resources rapidly to gain unique powers.
+
+### **3. Enhanced Output**
+- Replaced crowded outputs with clean, user-friendly displays, ensuring a smoother gameplay experience.
+
+### **4. Design Patterns**
+- **Builder Pattern**: Generates customizable, grid-sized mazes and allows users to place pre-made objects into specific rooms.
+- **Factory Pattern**: Implements three factories:
+  - **AdventureFactory**: Creates adventurers.
+  - **CreatureFactory**: Produces creatures.
+  - **FoodFactory**: Generates consumables.
+
+<br>
 
 ---
 
-### Test Coverage: 86%
-<img width="282" alt="TestCoverageSS" src="https://github.com/user-attachments/assets/5891b282-0d47-4a1c-a840-416c1bcf33cc">
+## 📊 **UML Diagram**
+A detailed class structure for the game's design.
+
+<p align="center">
+  <img width="789" alt="UML Diagram" src="https://github.com/user-attachments/assets/2d81d643-8ab3-4a08-9a13-0ea8648506d6">
+</p>
+
+<br>
 
 ---
 
-### Technologies/Tools:
-- Java 17
-- Gradle
-- OpenJDK
+## ✅ **Test Coverage**
+Arcane-Game maintains a strong **86% test coverage**, ensuring robust and reliable gameplay.
 
+<p align="center">
+  <img width="282" alt="Test Coverage" src="https://github.com/user-attachments/assets/5891b282-0d47-4a1c-a840-416c1bcf33cc">
+</p>
+
+<br>
+
+---
+
+## 💻 **Technologies and Tools**
+- **Java 17**
+- **Gradle**
+- **OpenJDK**
+
+---
