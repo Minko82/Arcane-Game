@@ -2,7 +2,7 @@
 
 ## 📝 **Project Description**
 
-Arcane-Game is an engaging dice-based adventure game. This expansion introduces exciting new features, including enhanced gameplay mechanics, new characters, and expanded creature types. With these updates, players can explore dynamic mazes, interact with unique adventurers, and face challenges like never before.
+Arcane-Game is a dice-based adventure game expansion with enhanced mechanics, new characters, and creature types, offering dynamic mazes and unique challenges.
 
 <p align="center">
   <img width="500" alt="Gameplay Screenshot" src="https://github.com/user-attachments/assets/b71e01c8-49fc-4162-a705-3d14a6052031">
